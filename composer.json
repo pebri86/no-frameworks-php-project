@@ -1,0 +1,22 @@
+{
+    "name": "Web App",
+    "description": "PHP web app without frameworks",
+    "keywords": ["php", "no frameworks"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fuji pebri",
+            "email": "pebri86@gmail.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "filp/whoops": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src/"
+        }
+    }
+}
